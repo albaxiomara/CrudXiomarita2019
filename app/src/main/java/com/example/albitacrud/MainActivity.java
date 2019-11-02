@@ -407,19 +407,19 @@ public class MainActivity extends AppCompatActivity {
 
 
     public String getSharedCodigo(Context context) {
-        SharedPreferences preferences = context.getSharedPreferences("profeGamez", MODE_PRIVATE);
+        SharedPreferences preferences = context.getSharedPreferences("xiomaracanales", MODE_PRIVATE);
         String codigo = preferences.getString("codigo","0");
         return codigo;   //return preferences.getString("tiempo", "Sin configurar.");
     }
 
     public String getSharedDescripcion(Context context) {
-        SharedPreferences preferences = context.getSharedPreferences("profeGamez", MODE_PRIVATE);
+        SharedPreferences preferences = context.getSharedPreferences("xiomaracanales", MODE_PRIVATE);
         String descripcion = preferences.getString("descripcion","Sin descripción");
         return descripcion;   //return preferences.getString("tiempo", "Sin configurar.");
     }
 
     public String getSharedPrecio(Context context) {
-        SharedPreferences preferences = context.getSharedPreferences("profeGamez", MODE_PRIVATE);
+        SharedPreferences preferences = context.getSharedPreferences("xiomaracanales", MODE_PRIVATE);
         String precio = preferences.getString("precio","0.0");
         return precio;   //return preferences.getString("tiempo", "Sin configurar.");
     }
